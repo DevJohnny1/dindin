@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    font-family: 'Ubuntu';
+}
+
+/* 
+Tags - HEADER
+#divheader - toda a div do header
+.logo-header - div com o logo do header
+.menu-links - div com os links do header
+.link-header - cada link do header
+*/
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.25)
+}
+
+#divheader {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 2%;
+}
+
+.link-header {
+    text-decoration:none;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Main e subdivisões */
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#pt-1 {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4%
+}
+
+#left-pt1 h1 {
+    color: #ff4081;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#left-pt1 p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#left-pt1 a {
+    font-size: 30px;
+    color:#ff4081 ;
+    text-decoration:none;
+    border: 2px solid #ff4081;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+#right-pt1 img {
+    width: 400px;
+    height: auto;
+}
+
+section {
+    padding: 50px;
+}
+
+#pt-2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    margin: 0 auto;
+    padding: 40px 15% 20px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cursos img {
+    padding: 20px 10% 20px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos {
+    padding: 20px 10px;
+    width: 400px;
+}
+
+.cursos h3, p, a {
+    padding: 3%;
+}
+
+#pt-2 h3 {
+    display: flex;
+    justify-content: center;
+    color: #ff4081;
+    font-size: 25px;
+}
+
+#pt-2 p {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#pt-2 a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 3%;
+    margin: 0 130px;
+    border-radius: 25px;
+    background-color: #ff4081;
+    color: white;
+    font-size: 17px;
+}
+
+#sobre-nos{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 5%;
+    width: 100%;
+}
+
+#sobre-nos h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 85%;
+    color:#2E948A;
+}
+
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 20px 0;
+    line-height:25px;
+}
+
+.clientes p {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.clientes span {
+    font-weight: bold;
+}
+
+#pt3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 auto;
+    padding: 40px 15% 20px 15%;
+    background-color: #f6f6f6;
+}
+
+#pt3 h2{
+    font-size: 28px;
+}
+
+#more-options {
+    display: flex;
+    padding: 0;
+}
+
+.options {
+    margin: 0 auto;
+    padding: 5% 5%;
+}
+
+.options img {
+    width: 319px;
+    height: 193px;
+
+}
+
+.options h4, h2 {
+    color:#2E948A;
+}
+
+.options h4 {
+    display: flex;
+    font-size: 25px;
+}
+
+.options p {
+    padding: 3% 0px;
+}
+
+.posts {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+
+.posts a{
+    font-size: 30px;
+    margin: 30px 0;
+    color: #FF4081;
+    text-decoration: none;
+    border: 2px solid #FF4081;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
+
+.footer {
+    background-color: #2E948A;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1% 2%;
+}
+
+.footer a {
+    text-decoration: none;
+    color:white;
+}
+
+.menu-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.options-footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options-footer a {
+    
+    margin: 5px;
+}
+
+.option1 {
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px 48px;
+}
+
+.option2 {
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
