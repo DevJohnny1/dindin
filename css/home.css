@@ -228,8 +228,12 @@ section {
     padding: 5px 30px;
 }
 
-.footer {
+footer {
     background-color: #2E948A;
+}
+
+.footer {
+    max-width: 1440px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
