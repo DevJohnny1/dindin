@@ -123,15 +123,13 @@ main {
     max-width: 466px;
 }
 
-section {
-    border-bottom: 4px solid #c4c4c4;
-}
-
-.aulas {
-    background-color: #F6F6F6;
+.aulas {  
+    max-width: 1440px;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     padding: 50px 0;
+    border-bottom: 4px solid #c4c4c4;
 }
 
 .direita-aula {
@@ -151,4 +149,9 @@ section {
     color: #FF4081;
     padding: 30px 0;
     font-size: 35px;
+}
+
+
+.conteudo {  
+    background-color: #F6F6F6;
 }

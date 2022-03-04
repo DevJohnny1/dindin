@@ -89,68 +89,54 @@ footer {
     padding: 10px 30px;
 }
 
-/* Alterações MAIN */
+/* conteudo da MAIN */
 
-main {
+.conteudo {
     max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-}
-
-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 25px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
-section h1 {
-    font-size: 30px;
-    margin: 25px 0;
-    color: #ff4084;
-}
-
-input, textarea {
-    width: 500px;
-    padding: 5px;
-}
-
-.nome {
-    margin: 15px 0;
-}
-
-.email {
-    margin: 15px 0;
-}
-
-.mensagem {
-    margin: 15px 0;
-    height: 150px;
-}
-
-.button {
-    background-color: #ff4084;
-    border-style: none;
-    border-radius: 25px;
-    padding: 8px;
-    width: 100px;
-}
-
-.button a {
-    justify-content: center;
-    display:flex ;
-    text-decoration: none;
-    color: white;
+    padding: 5%;
 }
 
 .esquerda {
-    height: 69vh;
-    
-   /* outra opção para essa função >
-         footer { margin-top:10.5%;} */
+    margin-right: 250px;
 }
+
+.esquerda h1{
+    display: flex;
+    justify-content: flex-start;
+    color: #2E948A;
+    padding: 35px 0;
+    font-size: 35px;
+}
+
+#container {
+    background-color: #f6f6f6;
+    padding: 0 0 5% 0;
+}
+
+.container-topic {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.container-topic img {
+    width: 520px;
+}
+
+.topic {
+    padding: 5%;
+    width: 520px;
+}
+
+h3 {
+    color: #ff4081;
+    padding: 3% 0;
+    font-size: 25px;
+}
+
